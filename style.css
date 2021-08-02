@@ -14,9 +14,10 @@ body {
   position: absolute;
   top: 0;
   width: 100%;
+  height: 70px;
   display: flex;
   justify-content: space-between;
-  padding: 3% 5%;
+  padding: 6% 5%;
   z-index: 10;
 }
 
@@ -38,12 +39,12 @@ body {
 
 .language__drop__down:focus {
   outline: none;
+  color: #757575;
 }
 
 .dropdown__container {
   border: 1px solid white;
-  color: #757575;
-  padding: 0.4rem;
+  padding: 0.2rem;
   border-radius: 4px;
   background: rgba(0, 0, 0, 0.4);
 }
@@ -52,7 +53,7 @@ body {
   background-color: #dc030f;
   border: 1px solid #dc030f;
   color: white;
-  padding: 0.25rem 0.5rem;
+  padding: 0.3rem 0.5rem;
   border-radius: 4px;
 }
 
@@ -350,6 +351,10 @@ footer {
 }
 
 @media (min-width: 768px) {
+  .navbar__brand {
+    width: 120px;
+    height: 40px;
+  }
   .hero__bg__image__container {
     height: 100vh;
   }
@@ -425,7 +430,11 @@ footer {
   }
 
   .navbar__brand {
-    width: 150px;
+    width: 160px;
+    height: 100%;
+  }
+  .brand__logo {
+    height: 55px;
   }
 
   .signin__button {
